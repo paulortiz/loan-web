@@ -1,0 +1,40 @@
+#app {
+    font-family: Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0;
+    background: #f2f2f2;
+    border-left: 5px solid #07c472;
+}
+
+h1 {
+    border-left: 5px solid #07c472;
+    padding-left: 24px;
+    margin: 35px 0;
+}
+
+button[name="calculate"] {
+    width: 200px;
+    border-radius: 4px;
+    align-self: center;
+    float: right;
+    padding: 10px 0px;
+    font-weight: 500;
+    color: white;
+    background: #1b9962;
+    font-size: 20px;
+    outline: none;
+}
+
+button[name="calculate"]:active {
+    background: #196845;    
+}
