@@ -15,27 +15,27 @@
 </template>
 
 <script>
-    export default {
-        name: "Slider",
-        props: {
-            title: String,
-            name: String,
-            min: Number,
-            max: Number,
-            minDisplay: String,
-            maxDisplay: String
-        },
-        data: function() {
-            return {
-                sliderValue: 0
-            }
-        },
-        methods: {
-            sliderChange() {                
-                this.$emit("sliderChange", this.sliderValue)
-            }
+export default {
+    name: "Slider",
+    props: {
+        title: String,
+        name: String,
+        min: Number,
+        max: Number,
+        minDisplay: String,
+        maxDisplay: String
+    },
+    data: function() {
+        return {
+            sliderValue: 0
+        }
+    },
+    methods: {
+        sliderChange() {                
+            this.$emit("sliderChange", this.sliderValue)
         }
     }
+}
 </script>
 
 <style src="./Slider.css"></style>

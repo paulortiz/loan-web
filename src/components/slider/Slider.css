@@ -42,7 +42,7 @@
     width: 20px; /* 1 */
     height: 40px;
     background: #fff;
-    box-shadow: -100vw 0 0 100vw #21da8a;
+    box-shadow: -100vw 0 0 100vw #07c472;
     border: 2px solid #999; /* 1 */
 }
 
@@ -57,7 +57,7 @@
     width: 20px;
     border: 3px solid #999;
     border-radius: 0 !important;
-    box-shadow: -100vw 0 0 100vw #21da8a;
+    box-shadow: -100vw 0 0 100vw #07c472;
     box-sizing: border-box;
 }
 

@@ -16,7 +16,7 @@
     border-left: 5px solid #07c472;
 }
 
-h1 {
+h1, h2 {
     border-left: 5px solid #07c472;
     padding-left: 24px;
     margin: 35px 0;
@@ -24,17 +24,36 @@ h1 {
 
 button[name="calculate"] {
     width: 200px;
-    border-radius: 4px;
     align-self: center;
     float: right;
-    padding: 10px 0px;
+    padding: 20px 0px;
     font-weight: 500;
     color: white;
     background: #1b9962;
+    border: 0;
+    border-bottom: 3px solid #116541;
     font-size: 20px;
     outline: none;
 }
 
 button[name="calculate"]:active {
     background: #196845;    
+}
+
+.breaker {
+    clear: both;
+}
+
+.computed-repayment {
+    width: 85%;
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+.computed-repayment div{
+    margin-bottom: 10px;
+}
+
+.computed-repayment #title {
+    font-weight: bolder;
 }
