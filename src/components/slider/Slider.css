@@ -18,6 +18,14 @@
     border: 1px solid #c4c4c4;
 }
 
+.invalid {
+    border: 1px solid red;
+}
+
+.valid {
+    border: 1px solid #07c472;
+}
+
 .slider { 
     margin: auto;
     -webkit-appearance: none;
